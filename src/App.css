@@ -1,0 +1,45 @@
+.App{
+  background-color: seagreen;
+  align-content: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.Main{
+  margin-top: 5%;
+}
+
+a, a:visited, a:active{
+  text-decoration: none;
+  color: white
+}
+a:hover{
+  color: red
+}
+
+ol{
+  list-style: none;
+}
+
+.button{
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media only screen and (min-width: 450px){
+.button{
+  flex-direction: row;
+}
+}
+
+.Selected{
+  color: red
+}
